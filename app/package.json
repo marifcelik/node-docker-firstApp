@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.31"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
