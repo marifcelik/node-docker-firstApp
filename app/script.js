@@ -11,10 +11,11 @@ const sayfalar = {
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-type': 'text/html; charset=utf-8' });
     let adres = req.url;
-    if (sayfalar[adres])
-        res.write(sayfalar[adres]);
-    else
-        res.write('<h2>404</h2>');
+    //if (sayfalar[adres])
+    //    res.write(sayfalar[adres]);
+    //else
+    //    res.write('<h2>404</h2>');
+    res.write(sayfalar[adres] | '<h2>404</h2>')
     res.end();
 });
 
